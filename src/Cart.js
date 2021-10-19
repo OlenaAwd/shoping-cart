@@ -70,7 +70,9 @@ const Cart = () => {
           <h2>Total Price: $ {cartTotal}</h2>
         </div>
         <div className="col-auto">
-          <button className="btn btn-danger m-2" onCLick={() => emptyCart()}>
+                  <button
+                      className="btn btn-danger m-2"
+                      onCLick={() => emptyCart()}>
             Clear cart
           </button>
           <button className="btn btn-primary m-2">Buy Now</button>
